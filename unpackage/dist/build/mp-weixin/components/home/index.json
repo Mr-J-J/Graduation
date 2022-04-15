@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar"
+  },
+  "component": true
+}

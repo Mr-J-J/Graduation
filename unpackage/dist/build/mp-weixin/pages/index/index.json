@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "布尔影视",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-tabbar": "/uni_modules/uview-ui/components/u-tabbar/u-tabbar",
+    "u-tabbar-item": "/uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item",
+    "index": "/components/home/index",
+    "user": "/components/home/user",
+    "menu-list": "/components/sehochen-left-menu/menuList"
+  }
+}

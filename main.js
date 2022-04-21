@@ -8,14 +8,14 @@ import store from './store'
 import uView from '@/uni_modules/uview-ui'
 
 import mixin from './common/mixin'
-
+import { api } from './common/api.js'
+Vue.prototype.api = api
 Vue.prototype.$store = store
 
 Vue.config.productionTip = false
 
 App.mpType = 'app'
 Vue.use(uView)
-
 // #ifdef MP
 // 引入uView对小程序分享的mixin封装
 const mpShare = require('@/uni_modules/uview-ui/libs/mixin/mpShare.js')
@@ -31,5 +31,6 @@ const app = new Vue({
 
 // 引入请求封装
 require('./util/request/index')(app)
+
 
 app.$mount()

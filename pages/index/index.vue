@@ -119,6 +119,7 @@
 			};
 		},
 		methods:{
+			
 			change(name) {
 				this.value = name
 				console.log(name)
